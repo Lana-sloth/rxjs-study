@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   styleUrls: ['./app.component.css'],
   template: `
-  <h1>Hello!</h1>
+  <router-outlet></router-outlet>
   `
 })
 export class AppComponent {
-  title = 'app';
+
 }
