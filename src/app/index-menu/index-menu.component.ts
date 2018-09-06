@@ -4,7 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-index-menu',
   styleUrls: ['./index-menu.component.css'],
   template: `
-  <button routerLink="/timer">Timer</button>
+  <h1>Projects List</h1>
+  <ol>
+    <li><a routerLink="/timer">Timer</a></li>
+  </ol>
   `
 })
 export class IndexMenuComponent implements OnInit {
