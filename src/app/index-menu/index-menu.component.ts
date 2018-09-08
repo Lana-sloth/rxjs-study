@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   <h1>Projects List</h1>
   <ol>
     <li><a routerLink="/timer">Timer</a></li>
+    <li><a routerLink="/printing-message">Printing message</a></li>
   </ol>
   `
 })

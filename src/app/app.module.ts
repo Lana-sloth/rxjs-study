@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { IndexMenuComponent } from './index-menu/index-menu.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { TimerComponent } from './projects/timer/timer.component';
+import { PrintingMessageComponent } from './projects/printing-message/printing-message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexMenuComponent,
-    TimerComponent
+    TimerComponent,
+    PrintingMessageComponent
   ],
   imports: [
     BrowserModule,
