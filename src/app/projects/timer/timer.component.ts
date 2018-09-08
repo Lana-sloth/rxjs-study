@@ -8,7 +8,6 @@ import { map } from 'rxjs/operators';
   template: `
   <h1>Timer</h1>
   <div>{{ clock | async }}</div>
-  <button (click)="reset$.next()">reset</button>
   `
 })
 export class TimerComponent implements OnInit {
@@ -17,6 +16,5 @@ export class TimerComponent implements OnInit {
 
   ngOnInit() {}
 
-  reset$ = new Subject()
   clock = interval(1000);
 }
