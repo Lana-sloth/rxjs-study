@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-index-menu',
@@ -8,14 +8,8 @@ import { Component, OnInit } from '@angular/core';
   <ol>
     <li><a routerLink="/timer">Timer</a></li>
     <li><a routerLink="/printing-message">Printing message</a></li>
+    <li><a routerLink="/playable-characters">Playable Characters</a></li>
   </ol>
   `
 })
-export class IndexMenuComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class IndexMenuComponent {}

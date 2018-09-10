@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Observable, interval, timer, Subject, merge } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -10,11 +10,6 @@ import { map } from 'rxjs/operators';
   <div>{{ clock | async }}</div>
   `
 })
-export class TimerComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {}
-
+export class TimerComponent {
   clock = interval(1000);
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { interval } from 'rxjs';
 import { take, map } from 'rxjs/operators';
 
@@ -12,11 +12,7 @@ import { take, map } from 'rxjs/operators';
   <p>{{ outputText | async }}</p>
   `
 })
-export class PrintingMessageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {}
+export class PrintingMessageComponent {
 
   inputText;
   outputText;
